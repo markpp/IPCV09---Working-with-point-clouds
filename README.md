@@ -1,7 +1,5 @@
-# IPCV09---Working-with-point-clouds
-Exercises for "Image Processing and Computer Vision" Lecture 9: Working with point clouds
-
-Placeholder for link to video lecture
+# Working-with-point-clouds
+Exercises for Point Cloud Lecture
 
 Either PCL or Open3D can be used for most exercises. Try to get experience using both.
 
