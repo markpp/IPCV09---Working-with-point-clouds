@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--path", type=str,
-                    help=".ply or .pcd files")
+                    help="absolute path to .ply or .pcd files") # can someone make it work with relative paths?
     args = vars(ap.parse_args())
 
     # Initialize the visualizer
@@ -38,6 +38,8 @@ if __name__ == '__main__':
 
     # Save things
     save_view_point(vis, "o3d_viewpoint.json")
+
+    # convert to pcd
     #pcd_filename = "{}.pcd".format(args["path"].split(".")[0])
     #o3d.io.write_point_cloud(pcd_filename, cloud)
 
