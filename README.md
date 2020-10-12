@@ -1,5 +1,4 @@
 # Working-with-point-clouds
-Exercises for Point Cloud Lecture
 
 Either PCL or Open3D can be used for most exercises. Try to get experience using both.
 
