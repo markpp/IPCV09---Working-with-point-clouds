@@ -1,6 +1,6 @@
 # 04 - Table segmentation
 
-The segmentation method is based on RANdom SAmple Consensus (RANSAC). If you are unfamiliar with the method, it is explained well here ---[Robotics - 4.3.3 - RANSAC - Random Sample Consensus I](https://www.youtube.com/watch?v=BpOKB3OzQBQ "RANSAC for line fitting")--- RANSAC - Random Sample Consensus I](https://www.coursera.org/lecture/robotics-perception/ransac-random-sample-consensus-i-z0GWq "RANSAC for line fitting") for fitting a line.
+The segmentation method is based on RANdom SAmple Consensus (RANSAC). If you are unfamiliar with the method, it is explained well here RANSAC - Random Sample Consensus I](https://www.coursera.org/lecture/robotics-perception/ransac-random-sample-consensus-i-z0GWq "RANSAC for line fitting") for fitting a line.
 
 1. Follow PCL's [tutorial on planar segmentation](http://www.pointclouds.org/documentation/tutorials/planar_segmentation.php "PCL tutorials").
 2. Instead of the generated point cloud load "table_scene_lms400.pcd"
